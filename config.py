@@ -6,8 +6,8 @@ app = Flask(__name__)
 DIALECT = 'mysql'
 DRIVER = 'pymysql'
 USERNAME = 'root'
-PASSWORD = ''
-HOST = '127.0.0.1'
+PASSWORD = 'password'
+HOST = '192.168.99.100'
 PORT = '3306'
 DATABASE = 'react_template'
 
